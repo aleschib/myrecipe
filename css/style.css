@@ -1,11 +1,11 @@
 body{
-    font-family: 'Sniglet', cursive;
+    font-family: 'Architects Daughter', serif;
     font-size: 16px;
     color: #2f2f2f;
-    background-color: #d8c8a2f5;
+    background-color: #d7f1e2f5;
 }
 header{
-    font-family: 'Sniglet', cursive;
+    font-family: 'Coiny', serif;
     font-weight: 900;
     font-size: 80px;
     text-transform: uppercase;
@@ -59,7 +59,7 @@ p{
 
 .column{
     font-size: 18px;
-    line-height: 25px;
+    line-height: 20px;
     width: 17.5%;
     display: inline-block;
     padding: 0 1% 0 1%;
@@ -74,7 +74,7 @@ p{
 .column .headline{
     text-align: center;
     line-height: normal;
-    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', serif;
     display: block;
     margin: 0 auto;
 }
@@ -144,10 +144,8 @@ p{
 }
 
 .column .headline.hl5{
-    text-align: left;
-    font-family: 'Sniglet', cursive;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 42px;
     text-transform: uppercase;
     font-style: italic;
     box-sizing: border-box;
@@ -201,10 +199,10 @@ p{
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
-.column blockquote{
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 25px;
-    line-height: 35px;
+.column .citation{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 44px;
     /*font-style: italic;*/
     text-align: center;
     font-weight: 400;
@@ -214,7 +212,7 @@ p{
             font-feature-settings: "liga", "dlig";
 
 }
-.column blockquote:before{
+.column .citation:before{
     border-top: 1px solid #2f2f2f;
     content: '';
     width: 100px;
@@ -222,11 +220,11 @@ p{
     display: block;
     margin: 0 auto;
 }
-.column blockquote:after{
+.column .citation:after{
     border-bottom: 1px solid #2f2f2f;
     content: '';
     width: 100px;
-    /* height: 16px; */
+    height: 16px;
     display: block;
     margin: 0 auto;
 }
@@ -242,7 +240,7 @@ p{
     /* filter: sepia(80%) grayscale(1) contrast(1) opacity(0.8); */
     /* mix-blend-mode: multiply; */
     width: 100%;
-    border-style: solid;
+    border-style: dashed;
     border-width: 1.5pt;
     border-color: #7f945c;
 }

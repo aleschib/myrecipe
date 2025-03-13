@@ -10,7 +10,6 @@ function escapeHtml(unsafe) {
 const classMap = {
     h1: 'headline hl3',
     h2: 'headline hl4',
-    h3: 'headline hl5',
     img: 'media',
 }
 const bindings = Object.keys(classMap)
@@ -33,5 +32,5 @@ function include(filename, id) {
         var div = $("#" + id);
         div.html(html);
         // div.html(escapeHtml(html));
-    }, "text");
+    });
 }
