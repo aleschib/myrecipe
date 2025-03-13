@@ -14,3 +14,7 @@ np.array()
 **bold text**
 *italic text*
 
+![Laura Pausini](recipes/Laura_Pausini.jpg)
+
+![Laura](https://images.app.goo.gl/BYfg4ktPbVHXFAcT6)
+
